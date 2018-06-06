@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900');
+
+body {
+    font-family: Fira Sans;
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+
+    background-color: #111118;
+    color: #fff;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 1200px;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px;
+}
+
+div {
+    font-weight: 100;
+    /* transform: scale(0.2); */
+    transition: transform 0.2s;
+}
